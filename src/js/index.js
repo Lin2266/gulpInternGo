@@ -27,6 +27,9 @@ console.log('webpack ok');
 // npm i jquery 安裝
 import $ from 'jquery';
 import {gsap} from 'gsap';
+// import './css/style.css'; 
+import '../sass/style.scss'; 
+
 
 $('body').css('background-color', 'red');
 gsap.to('.box',{
